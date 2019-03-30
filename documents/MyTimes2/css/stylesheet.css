@@ -42,8 +42,8 @@ header {
 
 .content{
   display: flex;
-  width: 1300px;
-  margin-top: 6px;
+  width: 1232px;
+  margin-top: 0px;
   margin-right: auto;
   margin-bottom: 78px;
   margin-left: auto;
@@ -101,15 +101,8 @@ div{
 
   }
 
-.p{
+.narrative{
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  }
-
-.narrative{
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
   }
