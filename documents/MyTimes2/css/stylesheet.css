@@ -1,3 +1,26 @@
+/* UNIVERSAL STYLES */
+
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300 px;
+  font-family: "Georgia";
+  font-weight: bold;
+  color: white
+  font-size: 30px;
+  text-align: center;
+
+  }
+
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  }
+
+
+
 /* Header */
 
 
@@ -65,7 +88,7 @@ div{
   width: 630px;
   }
 
-  .lead-story image-content{
+  .lead-story .image-content{
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
     width: 630px;
     margin-top: 0;
@@ -85,24 +108,3 @@ div{
   .column.small{
     width: 240px;
     }
-
-
-/* UNIVERSAL STYLES */
-
-.image-content{
-  display: flex;
-  flex-direction: column;
-  height: 300 px;
-  font-family: Georgia;
-  font-weight: bold;
-  color: white
-  font-size: 30px;
-  text-align: center;
-
-  }
-
-.narrative{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-  }
