@@ -33,6 +33,11 @@
   width: 630px;
 }
 
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 
 
 /* Header */
@@ -46,7 +51,7 @@ header {
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
-  blackground-color: white;
+  background-color: white;
   font-family: "Verdana";
   font-size: 14px;
   font-weight: bold;
@@ -146,4 +151,31 @@ header {
       padding-bottom: 11px;
       padding-right: 20px;
       padding-left: 20px;
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 325px;
+      background-color: mediumaquamarine;
+      margins: auto;
+      font-family: "Verdana";
+      font-size: 12px;
+    }
+    footer .title{
+      display: inline-block;
+      padding-right: 25px;
+      border-right: 2px solid white;
+      font-family: "Georgia";
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+
+    footer nav{
+      display: inline-block;;
+      padding-left: 25px;
     }
