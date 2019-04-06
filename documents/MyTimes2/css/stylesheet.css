@@ -113,6 +113,10 @@ header {
     text-align: left;
     }
 
+    ..leald-story .image-content span{
+      margin-left: 20px;
+    }
+
   .fall-cancelled.image-content{
       background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 
