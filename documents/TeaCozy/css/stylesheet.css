@@ -1,0 +1,220 @@
+/* UNIVERSAL */
+
+.container {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1250px;
+    height: auto;
+  }
+
+body {
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: 1250px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 10px;
+
+  }
+
+  header nav {
+    padding-right: 40px;
+  }
+  
+
+
+h2 {
+    font-family: "Helvetica";
+    font-size:36px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+
+}
+h3 { font-family: "Helvetica";
+    font-size:30px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;}
+
+h4 {
+    font-family: "Helvetica";
+    font-size:24px;
+    color: seashell;
+    opacity: 0.9;    
+}
+
+h5 { font-family: "Helvetica";
+    font: size 20;px;
+    color: seashell;
+    opacity: 0.9;
+
+}
+
+.box{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margintop: 15px;
+    
+}
+
+.image-box {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    bottom-margin: 10px;
+
+}
+
+
+/* HEADER */
+
+header { 
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  width: 1200px;
+  height: 69 px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 20px;
+
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 50px;
+    margin-left: 10px;
+    
+  }
+  
+ 
+  
+
+/* MISSION */
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/img-mission-background.jpg") alt="Tea Cozy artisanal blend";
+    width: 1200px;
+    height: 700px;
+    margin-top: 69px;
+    text-align: center;
+    
+
+}
+
+.mission-banner {
+    display: flex;
+    justify-content: center;
+   
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    
+}
+
+/* TEA OF THE MONTH */
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    background-color: black;
+
+}
+
+.teabanner {
+    display: flexbox;
+    justify-content: center;
+    width: 1000px;
+}
+
+.t-box-1 {
+    background-image: url("./images/img-berryblitz.jpg") alt= "Fall Berry Blitz Tea" width=300px;
+}
+
+.t-box-2 {
+    background-image: url("./images/spiced-rum.jpg") alt="spiced rum tea box" width=302px;
+}
+
+t-box-3 {
+    background-image: url("./images/img-donut.jpg") alt="donut" width=300px;
+}
+t-box-4 {
+    background-image: url("images/img-myrtle-ave.jpg") alt="Myrtle Avenue Tea" width=300px;
+}
+
+t-box-5 {
+    background-image: url("images/img-bedford-bizarre.jpg") alt="Bedford Bizarre Tea" width=300px;
+}
+
+
+
+/* LOCATIONS */
+
+.locations {
+    display: flex;
+    background-image: url("../images/img-locations-background.jpg") 
+    alt="Tea Cozy Locations" width= 1200px height: 500px;
+    width:1200px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 1;
+
+}
+
+.h3 locations {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+.loc1{
+    display: flex
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-align: center;
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+
+}
+
+/* COPYRIGHT */
+
+<!--COPYRIGHT-->
+.copyright{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+
+}

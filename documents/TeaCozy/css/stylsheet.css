@@ -9,10 +9,8 @@ opacity: 0.9;
 
 .container {
   display: flex;
-  flex-direction: row;
- 
-
-
+  margins:auto;
+  width: 1250px;
 }
 
 h2 {
@@ -87,8 +85,13 @@ header{
 
 .t-box-2 {
     background-image: url("./images/spiced-rum.jpg" alt="spiced rum tea box" width=302px);
-
 }
+
+t-box-3 {
+    background-image: url("./images/img-donut.jpg" alt="donut" width=300px)
+}
+
+
 
 /* LOCATIONS */
 
