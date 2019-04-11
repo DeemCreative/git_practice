@@ -5,7 +5,7 @@
     margin-left:auto;
     margin-right: auto;
     width: 1250px;
-    height: auto;
+  
   }
 
 body {
@@ -110,7 +110,7 @@ header {
 .mission {
     display: flex;
     flex-direction: column;
-    background-image: url("./images/img-mission-background.jpg") alt="Tea Cozy artisanal blend";
+    background-image: url("../images/img-mission-background.jpg");
     width: 1200px;
     height: 700px;
     margin-top: 69px;
@@ -122,10 +122,10 @@ header {
 .mission-banner {
     display: flex;
     justify-content: center;
-   
     background-color: black;
     width: 1200px;
     text-align: center;
+    align-items: center;
     
 }
 
@@ -147,22 +147,22 @@ header {
 }
 
 .t-box-1 {
-    background-image: url("./images/img-berryblitz.jpg") alt= "Fall Berry Blitz Tea" width=300px;
+    background-image: url("./images/img-berryblitz.jpg");
 }
 
 .t-box-2 {
-    background-image: url("./images/spiced-rum.jpg") alt="spiced rum tea box" width=302px;
+    background-image: url("../images/spiced-rum.jpg");
 }
 
 t-box-3 {
-    background-image: url("./images/img-donut.jpg") alt="donut" width=300px;
+    background-image: url("../images/img-donut.jpg");
 }
 t-box-4 {
-    background-image: url("images/img-myrtle-ave.jpg") alt="Myrtle Avenue Tea" width=300px;
+    background-image: url("../images/img-myrtle-ave.jpg");
 }
 
 t-box-5 {
-    background-image: url("images/img-bedford-bizarre.jpg") alt="Bedford Bizarre Tea" width=300px;
+    background-image: url("../images/img-bedford-bizarre.jpg");
 }
 
 
@@ -171,7 +171,7 @@ t-box-5 {
 
 .locations {
     display: flex;
-    background-image: url("../images/img-locations-background.jpg") 
+    background-image: url("../images/img-locations-background.jpg");
     alt="Tea Cozy Locations" width= 1200px height: 500px;
     width:1200px;
     height: 500px;
@@ -184,6 +184,7 @@ t-box-5 {
 .h3 locations {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-bottom: 15px;
     width: 300px;
     height: 300px;
